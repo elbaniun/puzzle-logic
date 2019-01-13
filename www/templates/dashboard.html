@@ -5,7 +5,7 @@
             <span style="float:left;">Mov:</span>
             <span style="float:left;" id="movimientos">0</span>
 
-            <a href="" ng-click="nuevo()" style="float:right;" id="nuevo">Nuevo</a>
+            <a ng-click="nuevo()"  href="" style="float:right;" id="nuevo">Nuevo</a>
             <!--cronometro-->
             <span style="float:right; margin-rigth:10px; padding-right:20px;">T:<span id="minutos">0</span>:<span id="segundos">0</span></span>
             <div style="clear:both;"></div>
@@ -40,7 +40,7 @@
         <!--volver-->
         <div class="mismovimientos">
             <span style="float:left; font-size:16px !important;">Derechos Reservados</span>
-            <a href="#/perfil" style="float:right;" id="nuevo">Volver</a>  
+            <a href="#/perfil" style="float:right;" id="nuevo" ng-click="parar()">Volver</a>  
             <div style="clear:both;"></div>
         </div>
 
